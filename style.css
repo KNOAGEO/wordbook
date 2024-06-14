@@ -1,0 +1,44 @@
+/*タイピングゲーム*/
+body{
+    font-size: 6em;
+    text-align: center;
+}
+
+/*ゲームの残り秒数が表示されるタイマーの領域*/
+.timer {
+    margin: 30px 300px 0px 0px;
+    background-color: #463e3e;
+    font-weight: bold;
+    color: #fff;
+}
+
+.end {
+    padding: 10px;
+    background-color: bisque;
+    font-weight: lighter;
+}
+
+/*テキストが表示される領域*/
+.wrap {
+    margin-top: 20px;
+    padding: 80px 40px;
+    background-color: rgb(58,96,130);
+    font-weight: bold;
+    color: rgb(58, 96, 130);
+}
+
+/*正しくタイプされた場合のテキスト*/
+.typed{
+    color: #fff;
+}
+
+/*ミスタイプの場合の背景*/
+.mistyped {
+    background-color: rgb(114, 189, 255);
+}
+
+/*ボタンのスタイル*/
+.button {
+    font-weight: bold;
+    background-color: bisque;
+}
